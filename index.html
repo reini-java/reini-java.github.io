@@ -1,80 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <meta charset="utf-8">
-        <title>Github</title>
-        <script language="javascript" type="text/javascript" src="script.js"></script>
+        <title>Robin Reinhart</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
 
-        <h1>KLASSENSPIEGEL</h1>
+        <div id="content">
+        <h1>Robin Reinhart</h1>
+
+        <hr>
+
+        <h3>~Dies ist eine Website über einen Schüler der HTL Leonding~</h3>
+
+        <hr>
+
+
+        <h2>Meine aktuelle Schule</h2>
+            <a href="https://www.htl-leonding.at/"><img src="htlleonding.jpg" height="auto" width="50%" alt="Klick mich!"></a>
+
+
+            <h2>Stärken</h2>
+            <ul>
+                <li>Teamfähigkeit</li>
+                <li>Ehrgeiz</li>
+                <li>Kommunikationsfähigkeit</li>
+                <li>Leistungsorientierung</li>
+            </ul>
+        
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Schlagzeug spielen</li>
+            <li>Basketball spielen</li>
+            <li>Videos filmen und schneiden</li>
+            <li>Sich mit Freunden treffen</li>
+        </ul>
+
+
+        
+
+        <h2>Meine Zukunft</h2>
+        <p>Ich möchte die Htl Leonding abschließen.<br>Nach dem anschließenden Bundesheeraufenthalt möchte ich gerne Lehramt studieren. </p>
     
-        
-        <form>
-            
-    <div id="class">
-            <div class="select">
-            <select name="slt-1" id="myClass"  id="slt-1" onchange="names();">
-                  <option hidden>Klasse</option>
-                  <option value="1AHITM">1AHITM</option>
-                  <option value="1BHITM">1BHITM</option>
-                  <option value="2AHITM">2AHITM</option>
-                  <option value="2BHITM">2BHITM</option>
-                  
-            </select>
-            </div>
     </div>
-            <div id="name">
-            <div class="select">
-            <select name="slt-1"  id="myName">
-                  <option hidden>Schüler</option>
-            </select>
-            </div>
-                </div>
+    <script>
     
-            <div id="fach">
-            <div class="select">
-            <select name="slt-1" id="mySubject">
-                  <option hidden>Fach</option>
-                  <option value="mathe">Mathematik</option>
-                  <option value="englisch">Englisch</option>
-                  <option value="deutsch">Deutsch</option>
-                  <option value="chemie">Chemie</option>
-                  <option value="medientechnik">Medientechnik</option>
-            </select>
-        </div>
-    </div>
-            <div id="note">
-            <div class="select">
-            <select name="slt-1" id="myMark">
-                  <option hidden>Note</option>
-                  <option value="sehrgut">1</option>
-                  <option value="gut">2</option>
-                  <option value="befriedigend">3</option>
-                  <option value="genuegnd">4</option>
-                  <option value="nichtgenügend">5</option>
-                 
-            </select>
-                </div>
-    </div>
-           
-            <div id="buttons">
-            <input class="button" type="button" value="Speichern" onclick="print();" id="button_print">
-            <input class="button" type="button" value="Liste löschen" onclick="reload();" id="button_reload">
-                </div>
-                
-        </form>
-            
-        <table id="ausgabe">
-        
-            <tr>
-              <th>Klasse</th>
-              <th>Schüler</th>
-              <th>Fach</th>
-              <th>Note</th>
-            </tr>
-        
-        </table>
-        </body>
+        alert("Diese Website verwendet eigene Cookies. Wenn Sie damit einverstanden sind, drücken Sie auf OK.");
+    
+    </script>
+    </body>
 </html>
